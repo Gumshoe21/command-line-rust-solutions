@@ -11,7 +11,7 @@ fn main() {
                 .value_name("TEXT") //
                 .help("Input text")
                 .required(true)
-                .min_values(1), // .default_value("ARLEN IS A PERSON")
+                .min_values(1), // .default_value("this is the default value")
         )
         .arg(
             Arg::with_name("omit_newline")
